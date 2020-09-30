@@ -25,6 +25,12 @@ Workshop For VandyHacks 7
 
 - Transforms some set of data into another set of data using a function that operates on each individual data point.
 
+```
+Ex. Square a collection of integers
+
+Solution: map(lambda x: x * x, [1, 2, 3, 4]) -> [1, 4, 9, 16]
+```
+
 ### FlatMap
 
 - Map, followed by a flatten (removes one level of “array-ness”). 
