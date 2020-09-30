@@ -28,3 +28,9 @@ Workshop For VandyHacks 7
 ### FlatMap
 
 - Map, followed by a flatten (removes one level of “array-ness”). 
+
+```
+Ex. Create an array of numbers followed by their square
+
+Solution: flatMap(lambda x: [x, x * x], [1, 2, 3, 4]) -> [1, 1, 2, 4, 3, 9, 4, 16]
+```
