@@ -9,6 +9,10 @@ Workshop For VandyHacks 7
 - The primary data structure in Spark
 - Can be operated on in parallel
 
+<p align="center">
+	<img src = "res.jpg"/>
+</p>
+
 ### Laziness
 
 - All transformations are lazy, meaning that an assignment to a collection created by a transformation is not actually computed until an action requires it. 
